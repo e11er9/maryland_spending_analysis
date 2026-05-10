@@ -145,14 +145,22 @@ You can also view the dashboard on Tableau Public here:
 
 ## Files in This Repository
 
-- `MD_spending_analysis.ipynb` — Python notebook for cleaning, enrichment, and analysis
-- `Maryland_Budget_Analysis_Dashboard.twbx` — Tableau packaged workbook
-- `Maryland Spending Analysis.pdf` — written project report
+- `MD_spending_analysis.ipynb` — Python notebook used for data cleaning, enrichment, analysis, and chart creation
+- `Maryland_Budget_Analysis_Dashboard.twbx` — Tableau packaged workbook for the interactive dashboard
+- `Maryland Spending Analysis.pdf` — full written project report
 - `Maryland Spending Analysis Presentation.pdf` — presentation slides
-- `State_of_Maryland_Yearly_Spending_Overview.csv` — yearly spending summary
-- `contract_size_distribution.png` — contract size chart
-- `In_vs_out_of_state_spending.png` — in-state vs. out-of-state chart
-- `Sates_by_number_of_contracts.png` — top states by number of contracts chart
+- `State_of_Maryland_Yearly_Spending_Overview.csv` — smaller yearly spending summary CSV
+- `State_of_Maryland_Payments_Data__FY2008_to_FY2024_20260316.csv.zip` — compressed original Maryland payments dataset
+- `State_of_Maryland_Payments_Data_With_Location__FY2008_to_FY2026.csv.zip` — compressed cleaned/enriched dataset with added location fields
+- `zip_code_database.csv.zip` — compressed ZIP code reference dataset used for geographic enrichment
+
+### Static Charts
+
+The `Static Charts` folder contains exported PNG charts used in the report and presentation:
+
+- `contract_size_distribution.png` — contract size distribution chart
+- `In_vs_out_of_state_spending.png` — in-state vs. out-of-state spending chart
+- `States_by_number_of_contracts.png` — top states by number of contracts chart
 - `spending_by_year.png` — total spending by fiscal year chart
 - `States_by_total_spending.png` — top states by total spending chart
 
